@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Spiral Knights
+Exec=/usr/bin/spiral/spiral
+Icon=spiral-knights.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;
