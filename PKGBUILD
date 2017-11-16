@@ -8,7 +8,7 @@ arch=('x86_64')
 url="http://www.spiralknights.com/"
 license=('custom')
 depends=('xdg-utils' 'jre8-openjdk')
-source_x86_64=("spiral.tar.gz")
+source_x86_64=("https://github.com/liberodark/Spiral-Knights/releases/download/1.0.0/spiral.tar.gz")
 source=($pkgname.desktop
         $pkgname.png)
 sha512sums=('3ba87bc74efd09fd9f33dc353d2ede7c0e17022498c6fae80ea46b0158df740bfdc0c3b8ba148d65ac5530a90a35b46ea7b372003db39579e084e7e49659e04d'
