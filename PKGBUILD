@@ -20,7 +20,7 @@ package() {
   tar xvf spiral.tar.gz
   mkdir -p "$pkgdir/opt/spiral/"
   cp -r "spiral/." "$pkgdir/opt/spiral/"
-  chmod 677 -R "$pkgdir/opt/spiral"
+  chmod 667 -R "$pkgdir/opt/spiral"
   install -vDm644 $srcdir/$pkgname.desktop $pkgdir/usr/share/applications/$pkgname.desktop
   install -vDm644 $srcdir/$pkgname.png $pkgdir/usr/share/pixmaps/$pkgname.png
 }
