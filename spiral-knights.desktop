@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Spiral Knights
-Exec=/usr/bin/spiral/spiral
+Exec=/opt/spiral/spiral
 Icon=spiral-knights.png
 Terminal=false
 MultipleArgs=false
